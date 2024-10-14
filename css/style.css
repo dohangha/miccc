@@ -99,9 +99,14 @@
     font-weight: 500;
     outline: none;
 }
+.language a{
+    font-size: 18px;
+    font-weight: 500;
+}
 
 .navbar .navbar-nav .nav-link:hover,
-.navbar .navbar-nav .nav-link.active {
+.navbar .navbar-nav .nav-link.active, 
+.language a:hover {
     color: var(--primary);
 }
 
